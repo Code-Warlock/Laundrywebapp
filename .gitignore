@@ -1,0 +1,27 @@
+# Ignore virtual environment
+ve# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Django
+*.sqlite3
+*.log
+staticfiles/
+media/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# IDEs
+.vscode/
+.idea/
